@@ -71,7 +71,9 @@ class KeyboardViewController: UIInputViewController, CustomKeyboardViewDelegate 
 //MARK: - Delegate
 extension KeyboardViewController {
     func insertCharacter(_ newCharacter: String) {
-        replaceWord()
+        if newCharacter == " " {
+            replaceWord()
+        }
         textDocumentProxy.insertText(newCharacter)
     }
     

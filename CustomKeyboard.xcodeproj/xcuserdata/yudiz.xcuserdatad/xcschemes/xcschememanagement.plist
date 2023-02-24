@@ -7,12 +7,25 @@
 		<key>CustomKeyboard.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<key>CustomKeyboardView.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>038DE04A29A38CA30032B398</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>038DE06C29A3A9810032B398</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
